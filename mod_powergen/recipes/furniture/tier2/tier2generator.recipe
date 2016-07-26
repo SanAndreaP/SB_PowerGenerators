@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "steelbar", "count" : 2 },
+	{ "item" : "tier2switch", "count" : 1},
+	{ "item" : "wire", "count" : 2},
+	{ "item" : "circuitboard", "count" : 2},
+	{ "item" : "laserdiode", "count" : 4}
+  ],
+  "output" : {
+    "item" : "tier2generator",
+    "count" : 1
+  },
+  "groups" : [ "ironcraftingtable", "wire", "furniture", "objects", "all" ]
+}

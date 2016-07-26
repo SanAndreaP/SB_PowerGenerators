@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "circuitboard", "count" : 1 },
+    { "item" : "wire", "count" : 2 },
+    { "item" : "ironbar", "count" : 2 }
+  ],
+  "output" : { "item" : "distpanelstand", "count" : 1 },
+  "groups" : [ "wiringstation", "all" ]
+}

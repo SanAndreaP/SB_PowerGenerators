@@ -1,0 +1,89 @@
+{
+  "objectName" : "tier2generator",
+  "tags" : ["tier2","electronic","wired"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "wire",
+  "price" : 200,
+  "lightColor" : [38, 96, 128],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 4,
+  "description" : "A wireless power generator.",
+  "shortdescription" : "Steel Power Generator",
+
+  "apexDescription" : "A wireless power generator.",
+  "avianDescription" : "This device sends a rustle through my feathers.",
+  "floranDescription" : "Floran fear lightning machine.",
+  "glitchDescription" : "Investigate. A wireless power source.",
+  "humanDescription" : "Wireless power.",
+  "hylotlDescription" : "Such devices are very useful beneath the ocean.",
+
+  "race" : "generic",
+  "inventoryIcon" : "tier2generatoricon.png",
+  "orientations" : [
+    {
+      "image" : "tier2generator.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+
+      "imagePosition" : [-32, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      
+      "lightPosition" : [-2, 2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "tier2generator.png:<color>.<frame>",
+      "direction" : "right",
+
+      "imagePosition" : [-32, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      
+      "lightPosition" : [1, 2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [
+    "/objects/wired/powergenerator/generator.lua",
+    "/scripts/npcToyObject.lua"
+  ],
+  "scriptDelta" : 5,
+
+  "animation" : "tier2generator.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/apexconsole2switch.wav" ],
+      "off" : [ "/sfx/objects/apexconsole2switch.wav" ]
+    }
+  },
+  "animationParts" : {
+    "bg" : "tier2generator.png",
+    "fg" : "tier2generatorlit.png"
+  },
+  
+  "animationPosition" : [-32, 0],
+  
+  "soundEffect" : "/sfx/objects/teslaspike.wav",
+
+  "outboundNodes" : [ [0, 0] ],
+  "inboundNodes" : [ [0, 2] ],
+
+  "npcToy": {
+    "ownerOnly" : true,
+    "influence" : [
+      "wallbutton"
+    ],
+    "defaultReactions" : {},
+    "preciseStandPositionLeft" : [-1.0, 0.0],
+    "preciseStandPositionRight" : [1.0, 0.0],
+    "maxNpcs" : 1
+  }
+}

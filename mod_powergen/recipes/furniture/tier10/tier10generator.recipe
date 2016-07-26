@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "imperviumcompound", "count" : 2 },
+	{ "item" : "tier10switch", "count" : 1},
+	{ "item" : "wire", "count" : 2},
+	{ "item" : "circuitboard", "count" : 2},
+	{ "item" : "laserdiode", "count" : 4}
+  ],
+  "output" : {
+    "item" : "tier10generator",
+    "count" : 1
+  },
+  "groups" : [ "separatortable", "wire", "furniture", "objects", "all" ]
+}

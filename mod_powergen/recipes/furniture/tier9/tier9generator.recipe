@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "refinedrubium", "count" : 2 },
+	{ "item" : "tier9switch", "count" : 1},
+	{ "item" : "wire", "count" : 2},
+	{ "item" : "circuitboard", "count" : 2},
+	{ "item" : "laserdiode", "count" : 4}
+  ],
+  "output" : {
+    "item" : "tier9generator",
+    "count" : 1
+  },
+  "groups" : [ "manipulatortable", "wire", "furniture", "objects", "all" ]
+}

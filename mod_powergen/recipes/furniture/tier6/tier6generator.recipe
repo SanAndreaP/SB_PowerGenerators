@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "feroziumcompound", "count" : 2 },
+	{ "item" : "tier6switch", "count" : 1},
+	{ "item" : "wire", "count" : 2},
+	{ "item" : "circuitboard", "count" : 2},
+	{ "item" : "laserdiode", "count" : 4}
+  ],
+  "output" : {
+    "item" : "tier6generator",
+    "count" : 1
+  },
+  "groups" : [ "acceleratortable", "wire", "furniture", "objects", "all" ]
+}

@@ -1,0 +1,10 @@
+[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"tier2generator"}}
+,{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"tier4generator"}}
+,{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"tier5generator"}}
+,{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"tier6generator"}}
+,{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"tier7generator"}}
+,{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"tier8generator"}}
+,{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"tier9generator"}}
+,{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"tier10generator"}}
+,{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"distpanelwall"}}
+,{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"distpanelstand"}}]

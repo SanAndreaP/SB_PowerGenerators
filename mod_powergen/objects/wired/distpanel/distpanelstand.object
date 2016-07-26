@@ -1,0 +1,48 @@
+{
+  "objectName" : "distpanelstand",
+  "tags" : ["wired"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A distribution panel that can relay and distribute wires.",
+  "shortdescription" : "Distribution Panel",
+  "race" : "generic",
+
+  "category" : "wire",
+  "price" : 15,
+
+  "inventoryIcon" : "distpanelstand.png:default.onr",
+  "orientations" : [
+    {
+      "image" : "distpanelstand.png:<color>.offr",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  
+      "direction" : "right"
+    },
+    {
+      "image" : "distpanelstand.png:<color>.offl",
+      "imagePosition" : [-8, -8],
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  
+      "direction" : "left"
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/distpanel/distpanelstand.lua" ],
+  "scriptDelta" : 1,
+	  
+  "animation" : "/objects/wired/distpanel/distpanelstand.animation",
+
+  "animationParts" : {
+    "switch" : "distpanelstand.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "inboundNodes" : [ [0, -1] ],
+  "outboundNodes" : [ [-1, 0], [0, 0] ]
+}

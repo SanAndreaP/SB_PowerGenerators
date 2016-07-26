@@ -1,0 +1,11 @@
+{
+	"name" : "PowerGenerators",
+	"version" : "Beta v. Stables",
+	"metadata" : {
+		"displayName" : "Power Generators",
+		"author" : "SanAndreasP",
+		"description" : "A mod that adds craftable power generators for decoration purposes.",
+		"support_url" : "N/A",
+		"version" : "1.0.0"
+	}
+}

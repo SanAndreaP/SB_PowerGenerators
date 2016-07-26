@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 2 },
+	{ "item" : "tier4switch", "count" : 1},
+	{ "item" : "wire", "count" : 2},
+	{ "item" : "circuitboard", "count" : 2},
+	{ "item" : "laserdiode", "count" : 4}
+  ],
+  "output" : {
+    "item" : "tier4generator",
+    "count" : 1
+  },
+  "groups" : [ "roboticcraftingtable", "wire", "furniture", "objects", "all" ]
+}

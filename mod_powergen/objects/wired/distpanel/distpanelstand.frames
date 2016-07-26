@@ -1,0 +1,20 @@
+{
+  "frameGrid" : {
+    "size" : [16, 24],
+    "dimensions" : [4, 12],
+    "names" : [
+      [ "default.onr", "default.offr", "default.onl", "default.offl" ],
+      [ "black.onr", "black.offr", "black.onl", "black.offl" ],
+      [ "grey.onr", "grey.offr", "grey.onl", "grey.offl" ],
+      [ "white.onr", "white.offr", "white.onl", "white.offl" ],
+      [ "red.onr", "red.offr", "red.onl", "red.offl" ],
+      [ "orange.onr", "orange.offr", "orange.onl", "orange.offl" ],
+      [ "yellow.onr", "yellow.offr", "yellow.onl", "yellow.offl" ],
+      [ "green.onr", "green.offr", "green.onl", "green.offl" ],
+      [ "blue.onr", "blue.offr", "blue.onl", "blue.offl" ],
+      [ "purple.onr", "purple.offr", "purple.onl", "purple.offl" ],
+      [ "pink.onr", "pink.offr", "pink.onl", "pink.offl" ],
+      [ "brown.onr", "brown.offr", "brown.onl", "brown.offl" ]
+    ]
+  }
+}

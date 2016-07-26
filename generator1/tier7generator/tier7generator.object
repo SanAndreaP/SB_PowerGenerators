@@ -1,0 +1,89 @@
+{
+  "objectName" : "tier7generator",
+  "tags" : ["tier7","electronic","wired"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "wire",
+  "price" : 730,
+  "lightColor" : [122, 128, 38],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 4,
+  "description" : "A Cerulium power generator.",
+  "shortdescription" : "Cerulium Power Generator",
+
+  "apexDescription" : "A power generator.",
+  "avianDescription" : "This generates power.",
+  "floranDescription" : "Buzzzzz!",
+  "glitchDescription" : "Statement. A power source.",
+  "humanDescription" : "This'll keep my lights on!",
+  "hylotlDescription" : "This seems to generate power from an unknown source.",
+
+  "race" : "generic",
+  "inventoryIcon" : "tier7generatoricon.png",
+  "orientations" : [
+    {
+      "image" : "tier7generator.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+
+      "imagePosition" : [-80, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      
+      "lightPosition" : [-2, 2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "tier7generator.png:<color>.<frame>",
+      "direction" : "right",
+
+      "imagePosition" : [-80, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      
+      "lightPosition" : [1, 2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [
+    "/objects/wired/powergenerator/generator.lua",
+    "/scripts/npcToyObject.lua"
+  ],
+  "scriptDelta" : 5,
+
+  "animation" : "tier7generator.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/apexconsole2switch.wav" ],
+      "off" : [ "/sfx/objects/apexconsole2switch.wav" ]
+    }
+  },
+  "animationParts" : {
+    "bg" : "tier7generator.png",
+    "fg" : "tier7generatorlit.png"
+  },
+  
+  "animationPosition" : [-80, 0],
+  
+  "soundEffect" : "/sfx/objects/shipengine.wav",
+
+  "outboundNodes" : [ [0, 0] ],
+  "inboundNodes" : [ [0, 2] ],
+
+  "npcToy": {
+    "ownerOnly" : true,
+    "influence" : [
+      "wallbutton"
+    ],
+    "defaultReactions" : {},
+    "preciseStandPositionLeft" : [-1.0, 0.0],
+    "preciseStandPositionRight" : [1.0, 0.0],
+    "maxNpcs" : 1
+  }
+}

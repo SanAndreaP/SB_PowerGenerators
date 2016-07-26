@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 2 },
+	{ "item" : "tier5switch", "count" : 1},
+	{ "item" : "wire", "count" : 2},
+	{ "item" : "circuitboard", "count" : 2},
+	{ "item" : "laserdiode", "count" : 4}
+  ],
+  "output" : {
+    "item" : "tier5generator",
+    "count" : 1
+  },
+  "groups" : [ "acceleratortable", "wire", "furniture", "objects", "all" ]
+}
