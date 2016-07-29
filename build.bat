@@ -1,7 +1,6 @@
 @echo off
-set sb_location="D:\Steam\steamapps\common\Starbound"
-set /p verstr=Enter version string: 
-del /f powergenerators.modpak
-%sb_location%\win64\asset_packer.exe "Power Generators %verstr%" mod_powergen powergenerators.modpak
-xcopy powergenerators.modpak "%sb_location%\giraffe_storage\mods" /C /F /R /Y
+set sb_location="H:\Steam\steamapps\common\Starbound"
+if exist powergenerators.pak ( del /f powergenerators.pak )
+call %sb_location%\win32\asset_packer.exe mod_powergen powergenerators.pak
+xcopy powergenerators.pak "%sb_location%\mods\" /C /F /R /Y
 pause
